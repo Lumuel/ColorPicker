@@ -1,0 +1,10 @@
+C:\Visual Studio Projekte\ColorPicker\ColorPicker\bin\Debug\ColorPicker.exe.config
+C:\Visual Studio Projekte\ColorPicker\ColorPicker\bin\Debug\ColorPicker.exe
+C:\Visual Studio Projekte\ColorPicker\ColorPicker\bin\Debug\ColorPicker.pdb
+C:\Visual Studio Projekte\ColorPicker\ColorPicker\obj\Debug\ColorPicker.csprojResolveAssemblyReference.cache
+C:\Visual Studio Projekte\ColorPicker\ColorPicker\obj\Debug\ColorPicker.frmFarbauswahl.resources
+C:\Visual Studio Projekte\ColorPicker\ColorPicker\obj\Debug\ColorPicker.Properties.Resources.resources
+C:\Visual Studio Projekte\ColorPicker\ColorPicker\obj\Debug\ColorPicker.csproj.GenerateResource.Cache
+C:\Visual Studio Projekte\ColorPicker\ColorPicker\obj\Debug\ColorPicker.csproj.CoreCompileInputs.cache
+C:\Visual Studio Projekte\ColorPicker\ColorPicker\obj\Debug\ColorPicker.exe
+C:\Visual Studio Projekte\ColorPicker\ColorPicker\obj\Debug\ColorPicker.pdb
