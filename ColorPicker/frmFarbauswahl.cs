@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO.Ports;
+using System.Threading;
 using System.Windows.Forms;
 using System.IO.Ports;
 using System.Threading;
@@ -18,6 +13,7 @@ namespace ColorPicker
         string gValue = String.Empty;
         string bValue = String.Empty;
 
+<<<<<<< HEAD
         string blep = "c";
 
         byte[] asciiRvalue;
@@ -26,14 +22,21 @@ namespace ColorPicker
 
 
         bool noNewSelection = false;
+=======
+        char[] cRvalue = new char[4];
+        char[] cGvalue = new char[4];
+        char[] cBvalue = new char[4];
+>>>>>>> origin/master
 
         public frmFarbauswahl()
         {
             InitializeComponent();
+            InitializeComboBox();
         }
 
         private void frmFarbauswahl_btnStart_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             noNewSelection = false;
 
             if (colorDialog.ShowDialog() == DialogResult.OK)
@@ -89,6 +92,63 @@ namespace ColorPicker
             //}
             //    }
             //}            
+=======
+            if(frmFarbauswahl_cbPort.SelectedItem != null)
+            {
+                if (colorDialog.ShowDialog() == DialogResult.OK)
+                {
+                    rValue = "R" + colorDigits(colorDialog.Color.R); //R255
+                    gValue = "G" + colorDigits(colorDialog.Color.G); //G255
+                    bValue = "B" + colorDigits(colorDialog.Color.B); //B255
+
+                    cRvalue = rValue.ToCharArray();
+                    cGvalue = gValue.ToCharArray();
+                    cBvalue = bValue.ToCharArray();
+                }
+                send();
+            }
+            else
+            {
+                MessageBox.Show("Please select a port.", "Error");
+            }
+        }
+
+        public void InitializeComboBox()
+        {
+            string[] ports = SerialPort.GetPortNames();
+            foreach (string element in ports)
+            {
+                frmFarbauswahl_cbPort.Items.Add(element);
+            }
+        }
+
+        public void send()
+        {
+            try
+            {
+                string port = frmFarbauswahl_cbPort.SelectedItem.ToString();
+                sendDaChars(cRvalue, port);
+                sendDaChars(cGvalue, port);
+                sendDaChars(cBvalue, port);
+            }
+            catch(Exception)
+            {
+            }            
+        }
+
+        public void sendDaChars(char[] charArray, string port)
+        {
+            foreach (char element in charArray)
+            {
+                SerialPort colorOut = new SerialPort(port, 9600, Parity.None, 8, StopBits.One);
+                colorOut.Encoding = System.Text.Encoding.ASCII;
+                colorOut.Open();
+                string outElement = element.ToString();
+                colorOut.Write(outElement);
+                Thread.Sleep(10);
+                colorOut.Close();
+            }
+>>>>>>> origin/master
         }
 
         public string colorDigits(int number)
