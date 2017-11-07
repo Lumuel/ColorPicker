@@ -8,3 +8,13 @@ C:\Visual Studio Projekte\ColorPicker\ColorPicker\obj\Debug\ColorPicker.csproj.G
 C:\Visual Studio Projekte\ColorPicker\ColorPicker\obj\Debug\ColorPicker.csproj.CoreCompileInputs.cache
 C:\Visual Studio Projekte\ColorPicker\ColorPicker\obj\Debug\ColorPicker.exe
 C:\Visual Studio Projekte\ColorPicker\ColorPicker\obj\Debug\ColorPicker.pdb
+C:\Users\elasc\Raphaela\dhbw\3.Semester\Systemnahe Programmierung\MPLABProjects\ColorPicker\ColorPicker\bin\Debug\ColorPicker.exe.config
+C:\Users\elasc\Raphaela\dhbw\3.Semester\Systemnahe Programmierung\MPLABProjects\ColorPicker\ColorPicker\bin\Debug\ColorPicker.exe
+C:\Users\elasc\Raphaela\dhbw\3.Semester\Systemnahe Programmierung\MPLABProjects\ColorPicker\ColorPicker\bin\Debug\ColorPicker.pdb
+C:\Users\elasc\Raphaela\dhbw\3.Semester\Systemnahe Programmierung\MPLABProjects\ColorPicker\ColorPicker\obj\Debug\ColorPicker.csprojResolveAssemblyReference.cache
+C:\Users\elasc\Raphaela\dhbw\3.Semester\Systemnahe Programmierung\MPLABProjects\ColorPicker\ColorPicker\obj\Debug\ColorPicker.frmFarbauswahl.resources
+C:\Users\elasc\Raphaela\dhbw\3.Semester\Systemnahe Programmierung\MPLABProjects\ColorPicker\ColorPicker\obj\Debug\ColorPicker.Properties.Resources.resources
+C:\Users\elasc\Raphaela\dhbw\3.Semester\Systemnahe Programmierung\MPLABProjects\ColorPicker\ColorPicker\obj\Debug\ColorPicker.csproj.GenerateResource.Cache
+C:\Users\elasc\Raphaela\dhbw\3.Semester\Systemnahe Programmierung\MPLABProjects\ColorPicker\ColorPicker\obj\Debug\ColorPicker.csproj.CoreCompileInputs.cache
+C:\Users\elasc\Raphaela\dhbw\3.Semester\Systemnahe Programmierung\MPLABProjects\ColorPicker\ColorPicker\obj\Debug\ColorPicker.exe
+C:\Users\elasc\Raphaela\dhbw\3.Semester\Systemnahe Programmierung\MPLABProjects\ColorPicker\ColorPicker\obj\Debug\ColorPicker.pdb
